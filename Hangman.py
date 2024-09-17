@@ -175,7 +175,7 @@ class HangmanGame:
         self.guess_button.config(state="normal")
         self.reset_button.config(state="disabled")
 
-# Main Program
+#Main Program
 if __name__ == "__main__":
     root = tk.Tk()
     game = HangmanGame(root)
